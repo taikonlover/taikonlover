@@ -1,4 +1,4 @@
-run = "pip install -r requirements.txt;python main.py"
+run = "python baseline.py"
 language = "python"
 
 [packager]
@@ -13,4 +13,4 @@ MPLBACKEND = "TkAgg"
 POETRY_CACHE_DIR = "/root/${PROJECT_DIR}/.cache/pypoetry"
 
 [debugger]
-program = "main.py"
+program = "baseline.py"
